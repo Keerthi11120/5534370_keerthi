@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Bomberman",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/week3/bomberman_game.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/week3",
+            "console": "integratedTerminal",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "build bomberman"
+        }
+    ]
+}
